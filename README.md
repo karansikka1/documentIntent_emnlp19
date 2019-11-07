@@ -24,15 +24,14 @@
 
 
 ```
-Performance with the release ResNet-18  features (AUC) 
-
 |                	| Intent 	| Semiotic 	| Contextual 	|
 |----------------	|--------	|----------	|------------	|
-| Img            	| 73.8   	|          	|            	|
-| Img + Txt-Emb  	| 81.4   	|          	|            	|
-| Img + Txt-ELMo 	|        	|          	|            	|
+| Img            	| 73.8   	| 58.8     	| 62.5       	|
+| Img + Txt-Emb  	| 81.4   	| 69.9     	| 76.2       	|
+| Img + Txt-ELMo 	| 85.3   	| 69.1     	| 78.8       	|
 
 ```
+The results are quite close to those reported in the paper. 
 
 3. We give list of the labels for the three taxonomies in the folder ```labels```. Note that we use ```imgTxt_labels``` to refer to Contextual relationship (as used in the paper).  
 
